@@ -120,13 +120,20 @@ const Navbar = () => {
     <>
       <div className='relative bg-[#f7fdfd] z-50'>
         <nav className='container mx-auto flex items-center justify-between p-5'>
-          <div>
-            <Link to='/' className='text-blue-600 font-bold text-xl'>
-              Job<span className='text-[#1677cccb]'>Finder</span>
+        <div>
+            <Link to='/OurServices' className='text-blue-600 font-bold text-xl'>
+              Tresbien<span className='text-[#1677cccb]'> La Technologies</span>
             </Link>
           </div>
 
           <ul className='hidden lg:flex gap-10 text-base'>
+          <li>
+              <Link to='/about-us'>About</Link>
+            </li>
+            <li>
+              <Link to='/OurServices'>Our Services</Link>
+            </li>
+            
             <li>
               <Link to='/'>Find Job</Link>
             </li>
@@ -144,9 +151,7 @@ const Navbar = () => {
                 {user?.accountType === "seeker" ? "Applications" : "Upload Job"}
               </Link>
             </li>
-            <li>
-              <Link to='/about-us'>About</Link>
-            </li>
+            
           </ul>
 
           <div className='hidden lg:block'>
