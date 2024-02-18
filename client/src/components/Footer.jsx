@@ -71,17 +71,20 @@ const Footer = () => {
             </div>
 
             <span className='inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto'>
-              <a className='text-white text-xl  hover:scale-125 ease-in-out duration-300'>
+              <a href="https://www.facebook.com/profile.php?id=61555187707165&mibextid=ZbWKwL" 
+              className='text-white text-xl  hover:scale-125 ease-in-out duration-300'>
                 <FaFacebookF />
               </a>
               <a className='ml-3 text-white text-xl  hover:scale-125 ease-in-out duration-300'>
                 <FaTwitter />
               </a>
-              <a className='ml-3 text-white text-xl  hover:scale-125 ease-in-out duration-300'>
+              <a href="https://www.instagram.com/tresbien_la_technologies/?igsh=dTducG1pbHpnc2l4" 
+              className='ml-3 text-white text-xl  hover:scale-125 ease-in-out duration-300'>
                 <FiInstagram />
               </a>
 
-              <a className='ml-3 text-white text-xl  hover:scale-125 ease-in-out duration-300'>
+              <a href="https://www.linkedin.com/in/tresbien-la-technologies-94681a2a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+              className='ml-3 text-white text-xl  hover:scale-125 ease-in-out duration-300'>
                 <FaLinkedinIn />
               </a>
             </span>
@@ -91,19 +94,19 @@ const Footer = () => {
         <div className='bg-[#001a36]'>
           <div className='container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row'>
             <p className='text-gray-300 text-sm text-center sm:text-left'>
-              &copy; 2023 Job Finder —
+              &copy; 2024 
               <a
-                href='https://youtube.com/@CodeWaveWithAsante'
+                href=''
                 className='text-[#1199e7] ml-1'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                @CodeWave
+                @@Tresbien La Technologies
               </a>
             </p>
 
             <span className='sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-300 text-sm'>
-              Designed by CodeWave
+              Designed by Pareshhk
             </span>
           </div>
         </div>
